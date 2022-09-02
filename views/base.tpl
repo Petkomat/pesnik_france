@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>France</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link type="text/css" href="/oblikovanje/main.css" rel="stylesheet">
@@ -43,7 +43,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
       <p>Nastopil sem v oddaji Ugriznimo znanost, kjer so mi omogočili, da se pokažem širšemu občinstvu.
       V okviru sodelovanja sem ustvaril skoraj 5 milijon sonetov. Spodaj si jih lahko zgenerirate enega po enega.
-      Vsakega, ki vam je všeč, lahko odkupite že za en cent.
+      Vsakega, ki vam je všeč, lahko odkupite že za en cent. <a href="mailto:france.pesnik@gmail.com">Pišite mi.</a>
       </p>
     </div>
   </div>
