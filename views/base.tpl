@@ -41,8 +41,8 @@ and is wrapped around the whole page content, except for the footer in this exam
       A tudi glasbena industrija je le industrija, zato sem se odločil prodreti na trg z
       masovno proizvodnjo in zelo nizkimi cenami pesmi.</p>
 
-      <p>Nastopil sem v oddaji Ugriznimo znanost, kjer so mi omogočili, da se pokažem širšemu občinstvu.
-      V okviru sodelovanja sem ustvaril skoraj 5 milijon sonetov. Spodaj si jih lahko zgenerirate enega po enega.
+      <p>Nastopil sem v oddaji <a href="https://www.facebook.com/profile.php?id=100063867660422">Ugriznimo znanost</a>, kjer so mi omogočili, da se pokažem širšemu občinstvu.
+      V okviru sodelovanja sem ustvaril skoraj 5 milijonov sonetov. Spodaj si jih lahko zgenerirate enega po enega.
       Vsakega, ki vam je všeč, lahko odkupite že za en cent. <a href="mailto:france.pesnik@gmail.com">Pišite mi.</a>
       </p>
     </div>
