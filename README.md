@@ -35,19 +35,20 @@ na koncu zamenjaš s preprostim `application = default_app()`.
 
 ### Code
 
-je videti nekkao tako:
+je videti nekako tako:
 
-What your site is running.
-Source code: /home/pfrance/mysite
-Working directory: /home/pfrance
-WSGI configuration file: /var/www/pfrance_eu_pythonanywhere_com_wsgi.py
-Python version: 3.10
+| Nastavitev | Vrednost |
+| --- | --- |
+| Source code | /home/pfrance/mysite |
+| Working directory | /home/pfrance |
+| WSGI configuration file | /var/www/pfrance_eu_pythonanywhere_com_wsgi.py |
+| Python version | 3.10 |
 
 ### Static files
 
 pa so tkole (pazi na / na koncu):
 
-
-URL 	Directory
-/img/ 	/home/pfrance/mysite/img/ 	 
-/oblikovanje/ 	/home/pfrance/mysite/oblikovanje/ 	 
+| URL | Directory |
+| --- | --- |
+| /img/ | /home/pfrance/mysite/img/ |
+| /oblikovanje/ | /home/pfrance/mysite/oblikovanje/ |
