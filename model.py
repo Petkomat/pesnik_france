@@ -1,9 +1,12 @@
 import random
+import os
 
+
+THIS_DIR = os.path.dirname(__file__)
 
 def nalozi():
     vrstice = []
-    with open("vrstice.txt", encoding="utf-8") as f:
+    with open(os.path.join(THIS_DIR, "vrstice.txt"), encoding="utf-8") as f:
         for vrsta in f:
             moznosti = [moznost.strip() for moznost in vrsta.split("||")]
             vrstice.append(moznosti)
