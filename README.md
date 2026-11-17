@@ -2,6 +2,8 @@
 
 Pesnik France je po duši hitri zaslužkar. 5 000 000 sonetov napiše, kot bi mignil.
 
+**Zgeneriraj si sonet: <https://petkomat.github.io/pesnik_france/>**
+
 # Navodila za pythonanywhere
 
 ## Ustvari app
