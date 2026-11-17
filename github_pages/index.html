@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pesnik France · generator sonetov</title>
+<meta name="description" content="Pesnik France je napisal skoraj 5 milijonov sonetov. Zgenerirajte si svojega.">
+<meta property="og:title" content="Pesnik France · generator sonetov">
+<meta property="og:description" content="Skoraj 5 milijonov sonetov. Zgenerirajte si svojega – in še enega, in še enega …">
+<meta property="og:image" content="https://petkomat.github.io/pesnik_france/img/portret.png">
+<link rel="icon" href="img/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Raleway:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="stran.css">
+<script src="sonet.js" defer></script>
+</head>
+<body>
+
+<header class="glava ovoj">
+  <p class="nad">Blog in še kaj</p>
+  <h1>Pesnik France</h1>
+  <p class="pod">Dobrodošli na spletni strani pesnika Franceta.</p>
+</header>
+
+<main>
+
+  <!-- Generator -->
+  <section class="oder ovoj" aria-labelledby="naslov-generatorja">
+    <figure class="portret">
+      <img src="img/portret.png" width="1968" height="2096"
+           alt="Pesnik France s peresom v roki in dolgim zvitkom papirja">
+    </figure>
+
+    <div class="desno">
+      <article class="list">
+        <header class="list-glava">
+          <h2 id="naslov-generatorja">Generator sonetov</h2>
+          <p class="st-soneta" aria-live="polite">Sonet št. <b id="st-soneta">…</b></p>
+        </header>
+
+        <div class="sonet" id="sonet">
+          <p class="nalaganje">France ravno piše …</p>
+        </div>
+        <noscript><p class="napaka">Za generiranje sonetov potrebujete JavaScript.</p></noscript>
+
+        <div class="ukazi">
+          <button id="zgeneriraj" class="gumb" type="button" disabled>Zgeneriraj nov sonet&nbsp;&raquo;</button>
+          <button id="kopiraj" class="gumb-tih" type="button" disabled>Kopiraj</button>
+          <a id="odkupi" class="gumb-tih" href="mailto:france.pesnik@gmail.com">Odkupi za 1&nbsp;cent</a>
+        </div>
+        <p class="namig">Namig: kliknite posamezen verz, da ga zamenjate, ali pritisnite <kbd>preslednico</kbd> za nov sonet.</p>
+      </article>
+
+      <div class="stevci" aria-label="Števci sonetov">
+        <div class="stevec" id="stevec-seja">
+          <strong id="st-seja">0</strong>
+          <span>v tej seji</span>
+        </div>
+        <div class="stevec" id="stevec-skupaj">
+          <strong id="st-skupaj">0</strong>
+          <span>na tej napravi</span>
+        </div>
+        <div class="stevec">
+          <strong id="st-moznih">4&nbsp;782&nbsp;969</strong>
+          <span>vseh možnih</span>
+        </div>
+      </div>
+      <p class="pojasnilo">Vsak izmed 14&nbsp;verzov ima 3&nbsp;različice,
+        zato je vseh sonetov 3<sup>14</sup>&nbsp;=&nbsp;4&nbsp;782&nbsp;969.</p>
+    </div>
+  </section>
+
+  <div class="okras ovoj" aria-hidden="true">❦</div>
+
+  <!-- Blog -->
+  <section class="blog ovoj">
+    <article class="kartica glavna">
+      <img src="img/uz.png" width="980" height="551" loading="lazy" alt="Logotip oddaje Ugriznimo znanost">
+      <div class="vsebina">
+        <h2>Šopek sonetov</h2>
+        <p class="datum">Slovenija, 8. september 2022</p>
+        <p>Kot vemo, je kruh že v glasbeni industriji trd, še težje je pri poeziji in besedilih.
+          A tudi glasbena industrija je le industrija, zato sem se odločil prodreti na trg z
+          masovno proizvodnjo in zelo nizkimi cenami pesmi.</p>
+        <p>Nastopil sem v oddaji <a href="https://www.facebook.com/profile.php?id=100063867660422">Ugriznimo znanost</a>,
+          kjer so mi omogočili, da se pokažem širšemu občinstvu. V okviru sodelovanja sem ustvaril
+          skoraj 5 milijonov sonetov. Zgoraj si jih lahko zgenerirate enega po enega.
+          Vsakega, ki vam je všeč, lahko odkupite že za en cent.
+          <a href="mailto:france.pesnik@gmail.com">Pišite mi.</a></p>
+      </div>
+    </article>
+
+    <div class="stranski">
+      <article class="kartica">
+        <h3>Nekaj o meni</h3>
+        <p>Sem lep, mlad in nadarjen, nisem pa še uspešen. Ta kamenček v mozaik bom dodal
+          s pisanjem pesmi in problem bo rešen. Potrebujete ljubezenski sonet? Napeto balado?
+          Ste napisali narodno-zabavno vižo ali ljubko pop skladbo, besedila zanjo pa ne najdete?
+          Pišite na <a href="mailto:france.pesnik@gmail.com">france.pesnik@gmail.com</a> in se bomo zmenili.
+          Delam in pišem rime od pomladi do zime, od oseke do plime.</p>
+        <p class="drobno">Avtor moje podobe je Blaž Zajc.</p>
+      </article>
+
+      <article class="kartica">
+        <h3>Napiši svoj sonet</h3>
+        <img class="predloga" src="img/sonet.png" width="1700" height="2048" loading="lazy"
+             alt="Prazna predloga za sonet: črtice namesto črk, razporejene v štiri kitice">
+        <p>Predlogo zanj ti je pripravil Blaž Zajc, sedaj pa si na vrsti ti.</p>
+      </article>
+
+      <article class="kartica">
+        <h3>Oznake</h3>
+        <p class="oznake">
+          <span>pesnik</span><span>ugriznimo znanost</span><span>sonet</span>
+          <span>hitro in poceni</span><span>marljiv</span><span>ljubezen</span>
+          <span>romantika</span><span>rime</span><span>šola pisanja</span>
+        </p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer class="noga">
+  <div class="ovoj">
+    <p>Pesnik France · ilustracije: Blaž Zajc ·
+      v sodelovanju z oddajo <a href="https://www.facebook.com/profile.php?id=100063867660422">Ugriznimo znanost</a> ·
+      <a href="https://github.com/Petkomat/pesnik_france">izvorna koda</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
